@@ -6,7 +6,7 @@ select * from Employee;
 
 -- sp stands for stored procedure, and rename is the name of the stored procedure that we want to execute. The first parameter is the name of the table and column that we want to rename, and the second parameter is the new name for the column.
 
-sp_rename 'Employee.Name', 'Full Name';
+sp_rename 'Employee.Full Name', 'fullName';
 
 sp_rename 'Employee.city' , 'Location';
 
