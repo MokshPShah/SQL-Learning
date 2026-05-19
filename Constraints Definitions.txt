@@ -1,0 +1,13 @@
+Unique key: Unique Key refers to accept only unique values with one null value. Each table can have more than 1 Unique Key.
+
+Primary Key: Primary Key refers to accept only unique values without any null value. Each table can only have 1 Primary Key. The column which is set to Primary Key is sorted in ascending order by default in actual table.
+
+Foreign Key: Foreign Key refers to create relationship between two tables by referring Primary Key of another table. It can accept duplicate values and null values.
+
+Not Null: Not Null refers that a column cannot store null values.
+
+Check: Check refers to limit the values in a column according to specified condition.
+
+Default: Default refers to set a default value for a column if no value is provided.
+
+Composite Key: Composite Key refers to combination of two or more columns used to uniquely identify each record in a table.
