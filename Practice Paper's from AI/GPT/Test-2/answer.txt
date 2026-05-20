@@ -1,0 +1,30 @@
+Q1. Define the following terms in 2-3 lines each. (5 Marks)
+
+1. Primary Key : Primary key refers accepting only unique values without any null values and only have one primary key each  tables and it does not accept null values.
+
+2. Foreign Key : Foreign key refers to creating a relationship with the two tables where another table have primary key to refer it and make relationship with each other and it can accept both null and duplicate values. 
+
+3. Aggregate Functions : Aggregate Functions refers to the functions which have some capabilities to manage and get output based on conditions with the in-built functions like: min, max, avg, etc.
+
+4. Normalization : Normalizations refers to the managing and maintaining the table by bifurcations and stores the data in the clean and optimized way.
+
+5. WHERE vs HAVING : WHERE we used when we do not have to use the aggregate functions, while HAVING is used when we have to use the aggregate functions with the select or other methods.
+
+Q2. Answer the following. (5 Marks)
+
+1. Why do we use GROUP BY in SQL?
+A. The GROUP BY in SQL is used because when we need the data in a way that some specific columns are needed and based on some conditions that are easily handled by this method.
+
+2. Difference between DELETE, DROP, and TRUNCATE.
+A. DELETE is used where we need to delete some column or some data based on condition.
+    DROP is used when we want to delete whole table without keeping the structure of the table also.
+    TRUNCATE is used when we want to keep the table structure but don't want to keep the data of the table.
+
+3. What is the purpose of ORDER BY?
+A. In SQL when we want to sort the data in ASCENDING and DESCENDING order then we use ORDER BY to sort the data for that output.
+
+4. What is the difference between COUNT(*) and COUNT(column_name)?
+A. COUNT(*) will count all the columns data and COUNT(column_name) will counts only its column data.
+
+5. Why are joins important in databases?
+NOTE: Not learned so this will not be applicable.
