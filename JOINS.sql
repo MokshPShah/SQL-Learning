@@ -30,3 +30,24 @@ select e.id, e.fullName, e.Salary, e.department,e.Country, p.project_name, p.tec
 select e.id, e.fullName, e.Salary, e.department,e.Country, p.project_name, p.technology, p.postal into empj from employee e inner join Project p on e.id = p.pid;
 
 select * from empj;
+
+-- Full Join
+select e.id, p.pid from employee e full join Project p on e.id = p.pid;
+
+-- Left Join
+select e.id, p.pid from employee e left join Project p on e.id = p.pid;
+
+-- Right Join
+select e.id, p.pid from employee e right join Project p on e.id = p.pid;
+
+-- Cross Join (Cartesian Product) (every record of one table is joined with every record of another table) (A * B) 
+
+select * from employee; -- (20 rows)
+
+select * from Project; -- (19 rows)
+
+-- (A * B) = 20 * 19 = 380 records
+
+select e.id, p.pid from employee e cross join Project p;
+
+select * from employee cross join Project where fullName = 'Moksh';
