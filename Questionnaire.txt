@@ -1,0 +1,2 @@
+1. what is views in SQL?
+A. View is a virtual table based on the result of an SQL statement.
